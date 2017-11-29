@@ -1,0 +1,9 @@
+{
+    "products": [
+        {
+            "name": "Loading list...",
+            "price": "",
+            "description": "Please wait a second ..."
+        }
+    ]
+}
