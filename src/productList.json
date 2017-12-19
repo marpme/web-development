@@ -1,9 +1,16 @@
 {
-    "products": [
-        {
-            "name": "Loading list...",
-            "price": "",
-            "description": "Please wait a second ..."
-        }
-    ]
+	"products": [
+		{
+			"name": "Loading list...",
+			"price": "",
+			"description": "Please wait a second ..."
+		}
+	],
+	"errors": [
+		{
+			"name": "Error",
+			"price": "",
+			"description": "Wir konnten unsere neuen Produkte nicht laden!"
+		}
+	]
 }
