@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default () => (
 	<header className="App-header logo">
-		<Link to="/">
+		<Link to="/web-development/">
 			<div className="logo">
 				<img
 					className="logo"
@@ -16,13 +16,13 @@ export default () => (
 				</h1>
 			</div>
 		</Link>
-		<Link to="/">
+		<Link to="/web-development/">
 			<Button color="info">Homepage</Button>
 		</Link>{' '}
-		<Link to="/products">
+		<Link to="/web-development/products">
 			<Button color="info">Products</Button>
 		</Link>{' '}
-		<Link to="/contact">
+		<Link to="/web-development/contact">
 			<Button color="info">Contact us</Button>
 		</Link>
 	</header>

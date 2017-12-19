@@ -22,9 +22,19 @@ class App extends Component {
 					{/* second row */}
 					<div />
 					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path="/products" component={Products} />
-						<Route path="/contact" component={Contact} />
+						<Route
+							exact
+							path="/web-development/"
+							component={Home}
+						/>
+						<Route
+							path="/web-development/products"
+							component={Products}
+						/>
+						<Route
+							path="/web-development/contact"
+							component={Contact}
+						/>
 						<Route component={PageNotFound} />
 					</Switch>
 					<div />
