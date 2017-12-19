@@ -11,31 +11,31 @@ import Contact from './Contact'
 import PageNotFound from './PageNotFound'
 
 class App extends Component {
-    render() {
-        return (
-            <Router>
-                <div className="App">
-                    {/* frist row */}
-                    <div />
-                    <Header />
-                    <div />
-                    {/* second row */}
-                    <div />
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/products" component={Products} />
-                        <Route path="/contact" component={Contact} />
-                        <Route component={PageNotFound} />
-                    </Switch>
-                    <div />
-                    {/* third row */}
-                    <div />
-                    <Footer />
-                    <div />
-                </div>
-            </Router>
-        )
-    }
+	render() {
+		return (
+			<Router>
+				<div className="App">
+					{/* frist row */}
+					<div />
+					<Header />
+					<div />
+					{/* second row */}
+					<div />
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route path="/products" component={Products} />
+						<Route path="/contact" component={Contact} />
+						<Route component={PageNotFound} />
+					</Switch>
+					<div />
+					{/* third row */}
+					<div />
+					<Footer />
+					<div />
+				</div>
+			</Router>
+		)
+	}
 }
 
 export default App

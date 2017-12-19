@@ -9,7 +9,7 @@ export default () => (
 				<img
 					className="logo"
 					alt="The foobar logo"
-					src="images/foobar-logo.png"
+					src="https://i.imgur.com/HkRqWDD.png"
 				/>
 				<h1>
 					<p className="subtitle">~ die Bar deines Vertrauens ~</p>
