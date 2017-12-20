@@ -1,47 +1,96 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-color: grey;
-    color: white;
-    table-layout: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: grey;
+	color: white;
+	table-layout: fixed;
 }
 
 .App {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-auto-rows: 20% 70% 10%;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-auto-rows: 20% 70% 10%;
 }
 
 header,
 footer {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .subtitle {
-    font-size: 10pt;
-    color: lightgray;
-    font-style: italic;
+	font-size: 10pt;
+	color: lightgray;
+	font-style: italic;
+	text-align: center;
 }
 
 .logo {
-    padding: 15px;
-    width: auto;
-    height: auto;
+	padding: 15px;
+	width: auto;
+	height: auto;
 }
 
 .heart {
-    color: red;
+	color: red;
 }
 
 .content {
-    text-align: center;
-    padding-top: 35px;
+	text-align: center;
+	padding-top: 35px;
 }
 
 .contact-form {
-    margin-left: 10%;
-    margin-right: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@media (max-width: 500px) {
+	.logo {
+		width: 80%;
+	}
+
+	/*.logo > h1 {
+		display: none;
+    }*/
+
+	.App {
+		display: grid;
+		grid-template-columns: 5% 90% 5%;
+		grid-auto-rows: 20% 70% 10%;
+	}
+
+	#home > span {
+		display: none;
+	}
+
+	#home:after {
+		content: '🏠';
+	}
+
+	#products > span {
+		display: none;
+	}
+
+	#products:after {
+		content: '🍻';
+	}
+
+	#contact > span {
+		display: none;
+	}
+
+	#contact:after {
+		content: '📜';
+	}
+
+	.App-header {
+		display: inline-flex;
+		align-items: center;
+	}
+	.App-header > a {
+		padding: 1% 1%;
+	}
 }
