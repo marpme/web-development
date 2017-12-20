@@ -1,3 +1,4 @@
+/* Definiert die Styles für den Body */
 body {
 	margin: 0;
 	padding: 0;
@@ -7,12 +8,14 @@ body {
 	table-layout: fixed;
 }
 
+/* Definiert die Styles für den App (Grid layout) */
 .App {
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
 	grid-auto-rows: 20% 70% 10%;
 }
 
+/* Definiert die Styles für den header/footer  */
 header,
 footer {
 	text-align: center;
@@ -20,6 +23,7 @@ footer {
 	padding-bottom: 5%;
 }
 
+/* Definiert die Styles für den subtitle  */
 .subtitle {
 	font-size: 10pt;
 	color: lightgray;
@@ -27,6 +31,7 @@ footer {
 	text-align: center;
 }
 
+/* Definiert die Styles für den Logo  */
 .logo {
 	padding: 15px;
 	width: auto;
@@ -37,24 +42,23 @@ footer {
 	color: red;
 }
 
+/* Definiert die Styles für den content  */
 .content {
 	text-align: center;
 	padding-top: 35px;
 }
 
+/* Definiert die Styles für den contact-form  */
 .contact-form {
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
+/* Definiert die Styles für media mit einer maximalen width von 500px */
 @media (max-width: 500px) {
 	.logo {
 		width: 80%;
 	}
-
-	/*.logo > h1 {
-		display: none;
-    }*/
 
 	.App {
 		display: grid;
